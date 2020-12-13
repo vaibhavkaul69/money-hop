@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/money-hop/static/css/main.7f9b3df6.chunk.css",
+    "main.js": "/money-hop/static/js/main.cec88818.chunk.js",
+    "main.js.map": "/money-hop/static/js/main.cec88818.chunk.js.map",
+    "runtime-main.js": "/money-hop/static/js/runtime-main.c362a068.js",
+    "runtime-main.js.map": "/money-hop/static/js/runtime-main.c362a068.js.map",
+    "static/js/2.e15687a5.chunk.js": "/money-hop/static/js/2.e15687a5.chunk.js",
+    "static/js/2.e15687a5.chunk.js.map": "/money-hop/static/js/2.e15687a5.chunk.js.map",
+    "static/js/3.e6ea15fb.chunk.js": "/money-hop/static/js/3.e6ea15fb.chunk.js",
+    "static/js/3.e6ea15fb.chunk.js.map": "/money-hop/static/js/3.e6ea15fb.chunk.js.map",
+    "index.html": "/money-hop/index.html",
+    "static/css/main.7f9b3df6.chunk.css.map": "/money-hop/static/css/main.7f9b3df6.chunk.css.map",
+    "static/js/2.e15687a5.chunk.js.LICENSE.txt": "/money-hop/static/js/2.e15687a5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/money-hop/static/media/landing-section_bg.0d784af8.jpg",
+    "static/media/adv-1.bfecc0ba.gif": "/money-hop/static/media/adv-1.bfecc0ba.gif",
+    "static/media/adv-2.5f2b30da.gif": "/money-hop/static/media/adv-2.5f2b30da.gif",
+    "static/media/adv-4.c8da9858.gif": "/money-hop/static/media/adv-4.c8da9858.gif",
+    "static/media/adv-5.d5af5b94.gif": "/money-hop/static/media/adv-5.d5af5b94.gif",
+    "static/media/subscribe.5c8a281e.svg": "/money-hop/static/media/subscribe.5c8a281e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c362a068.js",
+    "static/js/2.e15687a5.chunk.js",
+    "static/css/main.7f9b3df6.chunk.css",
+    "static/js/main.cec88818.chunk.js"
+  ]
+}
