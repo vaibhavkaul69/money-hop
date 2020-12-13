@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/money-hop/static/css/main.b6074e9d.chunk.css",
+    "main.css": "/money-hop/static/css/main.8a6e9829.chunk.css",
     "main.js": "/money-hop/static/js/main.f8bea1c2.chunk.js",
     "main.js.map": "/money-hop/static/js/main.f8bea1c2.chunk.js.map",
     "runtime-main.js": "/money-hop/static/js/runtime-main.c362a068.js",
@@ -10,7 +10,7 @@
     "static/js/3.e6ea15fb.chunk.js": "/money-hop/static/js/3.e6ea15fb.chunk.js",
     "static/js/3.e6ea15fb.chunk.js.map": "/money-hop/static/js/3.e6ea15fb.chunk.js.map",
     "index.html": "/money-hop/index.html",
-    "static/css/main.b6074e9d.chunk.css.map": "/money-hop/static/css/main.b6074e9d.chunk.css.map",
+    "static/css/main.8a6e9829.chunk.css.map": "/money-hop/static/css/main.8a6e9829.chunk.css.map",
     "static/js/2.a3a64c0e.chunk.js.LICENSE.txt": "/money-hop/static/js/2.a3a64c0e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/money-hop/static/media/landing-section_bg.e4b19332.jpg",
     "static/media/adv-1.bfecc0ba.gif": "/money-hop/static/media/adv-1.bfecc0ba.gif",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c362a068.js",
     "static/js/2.a3a64c0e.chunk.js",
-    "static/css/main.b6074e9d.chunk.css",
+    "static/css/main.8a6e9829.chunk.css",
     "static/js/main.f8bea1c2.chunk.js"
   ]
 }
