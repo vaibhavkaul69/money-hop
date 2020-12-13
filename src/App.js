@@ -10,6 +10,14 @@ import Footer from "./Components/Footer/Footer";
 import Blog from "./Components/Blog/Blog";
 
 function App() {
+	//When user tries to close the TAB.
+	window.onbeforeunload = function () {
+		return true;
+	};
+	//When user tries to go Back and Forth by clicking on History button.
+	window.onpopstate = function () {
+		alert("You are trying to go Back and Forth");
+	};
 	return (
 		<main className="main-body-content">
 			<ToggleSideNavbarContactModalProvider>

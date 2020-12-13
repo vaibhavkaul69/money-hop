@@ -248,6 +248,7 @@ body {
 	display: none;
 	background-color: transparent;
 }
+
 .anchor-link,
 .top-navbar__toggle-contact-modal {
 	height: 40px;
@@ -273,6 +274,9 @@ body {
 }
 .active-navbar-item {
 	border-bottom: 3px solid var(--theme-green);
+}
+.money-transfer-link {
+	margin-top: 20px;
 }
 /** Top navbar css ends**/
 

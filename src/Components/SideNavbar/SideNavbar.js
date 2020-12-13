@@ -14,6 +14,14 @@ function SideNavbar() {
 					×
 				</button>
 				<div className="side-navbar__body-items">
+					<NavLink
+						activeClassName="active-navbar-item"
+						className="mx-4 text-decoration-none side-navbar-body-item "
+						to="/home"
+						onClick={toggleSideNavbar}
+					>
+						Home
+					</NavLink>
 					<a
 						className="mx-4 text-decoration-none side-navbar-body-item "
 						href="https://moneyhop.co/send/"
@@ -25,6 +33,7 @@ function SideNavbar() {
 						activeClassName="active-navbar-item"
 						className="mx-4 text-decoration-none side-navbar-body-item "
 						to="/about"
+						onClick={toggleSideNavbar}
 					>
 						About
 					</NavLink>
@@ -32,6 +41,7 @@ function SideNavbar() {
 						activeClassName="active-navbar-item"
 						className="mx-4  text-decoration-none side-navbar-body-item"
 						to="/blog"
+						onClick={toggleSideNavbar}
 					>
 						Blog
 					</NavLink>
@@ -50,6 +60,7 @@ function SideNavbar() {
 					<a
 						href="https://hop169616.typeform.com/to/fd1K4tfG"
 						target="_blank"
+						rel="noreferrer"
 						className=" text-decoration-none  side-navbar__early-access-btn"
 					>
 						Early Access

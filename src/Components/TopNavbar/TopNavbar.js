@@ -27,6 +27,7 @@ function TopNavbar() {
 						href="https://moneyhop.co/send/"
 						className="text-white text-decoration-none money-transfer-link anchor-link"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Money Transfer
 					</a>
@@ -54,6 +55,7 @@ function TopNavbar() {
 						className="text-white mx-4  text-decoration-none anchor-link"
 						href="https://moneyhop.co/faq/"
 						target="_blank"
+						rel="noreferrer"
 					>
 						FAQ's
 					</a>
@@ -66,6 +68,7 @@ function TopNavbar() {
 					<a
 						href="https://hop169616.typeform.com/to/fd1K4tfG"
 						target="_blank"
+						rel="noreferrer"
 						className=" mx-5 text-decoration-none  top-navbar__early-access-btn"
 					>
 						Early Access

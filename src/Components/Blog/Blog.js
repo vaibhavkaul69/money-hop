@@ -7,7 +7,7 @@ function Blog() {
 
 	const [userMailId, setUserMailId] = useState("");
 	const resetUserMailid = () => {
-		alert(userMailId + "- successfully subscribed to our Blog.!");
+		alert(userMailId + " has successfully subscribed to our Blog.!");
 		setUserMailId("");
 	};
 	return (

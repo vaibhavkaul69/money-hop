@@ -88,6 +88,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/mayankgoyalcfa/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -106,6 +107,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/harikishore/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -121,7 +123,11 @@ function About() {
 							/>
 							<h2 className="team-member-name">Gaurav Agarwal</h2>
 							<p className="team-member-description">Product Manager</p>
-							<a href="https://www.linkedin.com/in/gkbansal19/" target="_blank">
+							<a
+								href="https://www.linkedin.com/in/gkbansal19/"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
 									alt="Linkedin Icon"
@@ -141,6 +147,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/sanjeevkumar81/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -159,6 +166,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/mohit-parashar-a85376125/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								{" "}
 								<img
@@ -180,6 +188,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/himanshu-mittal-aab6b7104/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -198,6 +207,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/ujjawalchoudhry/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -216,6 +226,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/sachinbapure/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -231,7 +242,11 @@ function About() {
 							/>
 							<h2 className="team-member-name">Mayank Khan</h2>
 							<p className="team-member-description">UI/UX Designer</p>
-							<a href=" https://www.linkedin.com/in/mksd1/" target="_blank">
+							<a
+								href=" https://www.linkedin.com/in/mksd1/"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
 									alt="Linkedin Icon"
@@ -260,6 +275,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/harish-prabhu-999174/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -280,6 +296,7 @@ function About() {
 							<a
 								href="https://www.linkedin.com/in/andylund112/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
@@ -298,7 +315,11 @@ function About() {
 								Co-Founder at RationalFX and Xendpay | Authority in Fintech |
 								Investor
 							</p>
-							<a href="https://www.linkedin.com/in/davdra/" target="_blank">
+							<a
+								href="https://www.linkedin.com/in/davdra/"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img
 									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
 									alt="Linkedin Icon"

@@ -192,13 +192,17 @@ function BlogBody() {
 			<div className=" blog-thumbnail-grid container">
 				{currentBlogView.map((item) => {
 					return (
-						<div className="blog-thumbnail-grid__item">
+						<div
+							className="blog-thumbnail-grid__item"
+							key={Math.random() * 100}
+						>
 							<img src={item.blogImage} alt="Blog Image" />
 							<h2 className="blog-item__title">{item.title}</h2>
 							<p className="blog-item__description">{item.description}</p>
 							<a
 								href="https://moneyhop.co/blog/7-common-financial-mistakes-made-by-indians/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								Continue reading
 							</a>

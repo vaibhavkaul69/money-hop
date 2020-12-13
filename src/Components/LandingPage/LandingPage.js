@@ -38,7 +38,14 @@ function LandingPage() {
 						Invest, Borrow, and Spend with hop.
 					</p>
 					<div className="hero-section__cta-btn my-5">
-						<button className="cta__join-us-btn ">Join us</button>
+						<button
+							className="cta__join-us-btn "
+							onClick={() =>
+								window.open("https://hop169616.typeform.com/to/fd1K4tfG")
+							}
+						>
+							Join us
+						</button>
 						<a
 							href="https://play.google.com/store/apps/details?id=com.hop.moneyhop&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
 							target="_blank"
