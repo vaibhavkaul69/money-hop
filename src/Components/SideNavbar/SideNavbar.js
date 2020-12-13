@@ -14,13 +14,13 @@ function SideNavbar() {
 					×
 				</button>
 				<div className="side-navbar__body-items">
-					<NavLink
-						activeClassName="active-navbar-item"
+					<a
 						className="mx-4 text-decoration-none side-navbar-body-item "
-						to="https://moneyhop.co/send/"
+						href="https://moneyhop.co/send/"
+						target="_blank"
 					>
 						Money Transfer
-					</NavLink>
+					</a>
 					<NavLink
 						activeClassName="active-navbar-item"
 						className="mx-4 text-decoration-none side-navbar-body-item "

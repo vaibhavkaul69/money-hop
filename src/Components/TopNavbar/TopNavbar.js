@@ -23,13 +23,13 @@ function TopNavbar() {
 					<Link to="/home">
 						<img src={navImage} alt="Moneyhop Logo" className="top-nav__logo" />
 					</Link>
-					<NavLink
-						activeClassName="active-navbar-item"
-						to="https://moneyhop.co/send/"
+					<a
+						href="https://moneyhop.co/send/"
 						className="text-white text-decoration-none money-transfer-link anchor-link"
+						target="_blank"
 					>
 						Money Transfer
-					</NavLink>
+					</a>
 				</div>
 				<button className="open-side-navbar-btn" onClick={toggleSideNavbar}>
 					{" "}
