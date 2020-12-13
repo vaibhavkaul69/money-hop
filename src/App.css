@@ -316,7 +316,7 @@ body {
 }
 .side-navbar-body-item,
 .side-navbar__early-access-btn {
-	margin: 20px;
+	margin: 15px;
 	border: none;
 	font: 600 30px "Raleway", sans-serif;
 	border-bottom: 1px solid lightgrey;
