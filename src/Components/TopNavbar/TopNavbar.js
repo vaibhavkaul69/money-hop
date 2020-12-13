@@ -50,13 +50,13 @@ function TopNavbar() {
 					>
 						Blog
 					</NavLink>
-					<NavLink
-						activeClassName="active-navbar-item"
+					<a
 						className="text-white mx-4  text-decoration-none anchor-link"
-						to="/faq"
+						href="https://moneyhop.co/faq/"
+						target="_blank"
 					>
 						FAQ's
-					</NavLink>
+					</a>
 					<button
 						className="top-navbar__toggle-contact-modal text-white"
 						onClick={toggleContactModal}

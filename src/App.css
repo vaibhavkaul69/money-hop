@@ -5,6 +5,9 @@
 	--theme-light-green: rgba(67, 206, 162, 0.5);
 	--box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
 }
+* {
+	scroll-behavior: smooth;
+}
 button,
 button:focus,
 input,
@@ -56,7 +59,7 @@ body {
 	color: #fff !important;
 }
 .text-decoration-none {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 /** Generalised css ends**/
 
@@ -207,19 +210,10 @@ body {
 	padding: 20px;
 	box-shadow: var(--box-shadow);
 	display: flex;
-	animation: bg-color-support-grid-item 2s infinite alternate;
 	align-items: center;
 	justify-content: center;
 }
-@keyframes bg-color-support-grid-item {
-	0% {
-		background: var(--theme-green);
-	}
 
-	100% {
-		background: var(--theme-blue);
-	}
-}
 /** landing page css ends**/
 
 /** Top navbar css starts**/
@@ -404,14 +398,12 @@ body {
 
 img[alt="Linkedin Icon"] {
 	position: absolute;
-	right: 0px;
-	bottom: 10px;
+	right: 5px;
+	top: 5px;
 }
 /** about us page css ends here**/
 
 /** Blog page css starts here**/
-
-/**Blog page css ends here**/
 .blog-hero-section {
 	height: 100vh;
 	background: linear-gradient(to bottom, #0009, #0009, #1a1a1a),
@@ -499,6 +491,23 @@ img[alt="Linkedin Icon"] {
 	margin-top: 20px;
 	color: var(--theme-blue);
 }
+.blog-pagination {
+	display: flex;
+	margin: 2rem auto;
+	justify-content: center;
+	align-items: center;
+}
+.pagination-number {
+	font: 600 30px "Poppins", sans-serif;
+	color: #fff;
+	background: var(--theme-blue);
+	height: 60px;
+	width: 60px;
+	border: none;
+	margin: 10px;
+}
+/**blog page css ends here**/
+
 /** Contact us modal css starts here**/
 .contact-modal-container {
 	width: 100%;
@@ -628,13 +637,22 @@ img[alt="Linkedin Icon"] {
 	margin: 10px;
 	padding: 5px;
 }
+.footer-products__list {
+	padding-inline-start: 0px;
+}
 .footer-products__list > li {
 	list-style-type: none;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 100%;
 	cursor: pointer;
-	font: 400 20px "Poppins", sans-serif;
+	font: 400 18px "Poppins", sans-serif;
 	color: #fff;
+}
+.footer-products__list > li::before {
+	content: "\2022";
+	margin-right: 5px;
+	color: var(--theme-green);
+	font-weight: bold;
 }
 .footer-products__list > li:hover {
 	color: var(--theme-green);
@@ -806,6 +824,9 @@ img[alt="Linkedin Icon"] {
 	}
 	.money-hop-advantages {
 		padding: 10px;
+	}
+	.team-member-name {
+		font: 600 20px "Poppins", sans-serif;
 	}
 }
 @media all and (max-width: 400px) {

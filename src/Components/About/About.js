@@ -85,10 +85,15 @@ function About() {
 							/>
 							<h2 className="team-member-name">Mayank Goyal</h2>
 							<p className="team-member-description">Founder & CEO</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/mayankgoyalcfa/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -98,10 +103,15 @@ function About() {
 							/>
 							<h2 className="team-member-name">Harikishore Tadigotla</h2>
 							<p className="team-member-description">VP, Engineering</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/harikishore/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -111,10 +121,12 @@ function About() {
 							/>
 							<h2 className="team-member-name">Gaurav Agarwal</h2>
 							<p className="team-member-description">Product Manager</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a href="https://www.linkedin.com/in/gkbansal19/" target="_blank">
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -126,10 +138,15 @@ function About() {
 							<p className="team-member-description">
 								Digital Marketing Manager
 							</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/sanjeevkumar81/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -139,10 +156,16 @@ function About() {
 							/>
 							<h2 className="team-member-name">Mohit Parashar</h2>
 							<p className="team-member-description">Software Engineer</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/mohit-parashar-a85376125/"
+								target="_blank"
+							>
+								{" "}
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -154,10 +177,15 @@ function About() {
 							<p className="team-member-description">
 								DevOps and Automation Engineer
 							</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/himanshu-mittal-aab6b7104/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -167,10 +195,15 @@ function About() {
 							/>
 							<h2 className="team-member-name">Ujjwal Chaudhary</h2>
 							<p className="team-member-description">Marketing Intern</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/ujjawalchoudhry/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -180,10 +213,15 @@ function About() {
 							/>
 							<h2 className="team-member-name">Sachin Bapure</h2>
 							<p className="team-member-description">Full Stack Engineer</p>
-							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
-							/>
+							<a
+								href="https://www.linkedin.com/in/sachinbapure/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 						<div className="team-member-grid-item">
 							<img
@@ -193,10 +231,79 @@ function About() {
 							/>
 							<h2 className="team-member-name">Mayank Khan</h2>
 							<p className="team-member-description">UI/UX Designer</p>
+							<a href=" https://www.linkedin.com/in/mksd1/" target="_blank">
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
+						</div>
+					</div>
+					<h1 className="about-hop__body-content-heading no-margin  mt-5">
+						Our Advisors
+					</h1>
+					<hr className="about-hop__body-content-heading-line ml-3" />
+					<h2 className="about-hop__team-subheading mt-3">
+						Meet Our Back Bone
+					</h2>
+					<div className="team-grid-container mt-5">
+						<div className="team-member-grid-item">
 							<img
-								src="https://moneyhop.co/static/media/social-icons/linkedin.png"
-								alt="Linkedin Icon"
+								src="https://moneyhop.co/static/media/people-images/harish-prabhu.png"
+								alt="Team member"
+								className="team-member-picture"
 							/>
+							<h2 className="team-member-name">Harish A. Prabhu</h2>
+							<p className="team-member-description">
+								EX- CEO | IB | Angel Investor | Board Member | Advisor
+							</p>
+							<a
+								href="https://www.linkedin.com/in/harish-prabhu-999174/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
+						</div>
+						<div className="team-member-grid-item">
+							<img
+								src="https://moneyhop.co/static/media/people-images/andy-lund.png"
+								alt="Team member"
+								className="team-member-picture"
+							/>
+							<h2 className="team-member-name">Andy Lund</h2>
+							<p className="team-member-description">
+								EX- Google | MSFT | Scale -Ups | Big - Data | SaaS | Cloud
+							</p>
+							<a
+								href="https://www.linkedin.com/in/andylund112/"
+								target="_blank"
+							>
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
+						</div>
+						<div className="team-member-grid-item">
+							<img
+								src="https://moneyhop.co/static/media/people-images/paresh-davdra.png"
+								alt="Team member"
+								className="team-member-picture"
+							/>
+							<h2 className="team-member-name">Paresh Davdra</h2>
+							<p className="team-member-description">
+								Co-Founder at RationalFX and Xendpay | Authority in Fintech |
+								Investor
+							</p>
+							<a href="https://www.linkedin.com/in/davdra/" target="_blank">
+								<img
+									src="https://moneyhop.co/static/media/social-icons/linkedin.png"
+									alt="Linkedin Icon"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>

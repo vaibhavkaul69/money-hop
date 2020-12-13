@@ -42,6 +42,7 @@ function LandingPage() {
 						<a
 							href="https://play.google.com/store/apps/details?id=com.hop.moneyhop&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
 							target="_blank"
+							rel="noreferrer"
 						>
 							<img
 								src={playStoreBadge}
@@ -114,7 +115,10 @@ function LandingPage() {
 				</div>
 			</section>
 
-			<section className="money-hop-advantages  homepage-section">
+			<section
+				className="money-hop-advantages  homepage-section"
+				id="homepage-section-advantages"
+			>
 				<h1 className="homepage-section__heading text-white">
 					All you need is HOP! <br />
 				</h1>

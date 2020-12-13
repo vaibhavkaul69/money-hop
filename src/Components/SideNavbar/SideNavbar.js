@@ -35,13 +35,12 @@ function SideNavbar() {
 					>
 						Blog
 					</NavLink>
-					<NavLink
-						activeClassName="active-navbar-item"
+					<a
 						className=" mx-4  text-decoration-none side-navbar-body-item"
-						to="/faq"
+						href="https://moneyhop.co/faq/"
 					>
 						FAQ's
-					</NavLink>
+					</a>
 					<button
 						className=" side-navbar-body-item"
 						onClick={toggleContactModal}

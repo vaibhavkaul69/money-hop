@@ -34,9 +34,31 @@ function Footer() {
 				<div className="footer-body__column">
 					<h3 className="footer-column__heading">Products</h3>
 					<ul className="footer-products__list">
-						<li> Money Transfer</li>
-						<li>Forex Cards</li>
-						<li>Savings Bank Account</li>
+						<li>
+							<a
+								href="https://moneyhop.co/send/Money"
+								className="text-decoration-none text-white"
+								target="_blank"
+							>
+								Money Transfer
+							</a>{" "}
+						</li>
+						<li>
+							<a
+								href="#homepage-section-advantages"
+								className="text-decoration-none text-white"
+							>
+								Forex Cards
+							</a>{" "}
+						</li>
+						<li>
+							<a
+								href="#homepage-section-advantages"
+								className="text-decoration-none text-white"
+							>
+								Savings Bank Account
+							</a>{" "}
+						</li>
 					</ul>
 				</div>
 				<div className="footer-body__column">
