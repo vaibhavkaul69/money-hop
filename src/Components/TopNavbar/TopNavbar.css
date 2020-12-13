@@ -1,0 +1,73 @@
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.top-navbar {
+	background: transparent;
+	height: 60px;
+	padding-top: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+.top-nav__logo {
+	margin-left: 20px;
+}
+.open-side-navbar-btn {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	font-size: 2rem;
+	border: none;
+	color: #fff;
+	display: none;
+
+	background-color: transparent;
+}
+.anchor-link,
+.top-navbar__toggle-contact-modal {
+	height: 40px;
+	display: inline-block;
+	margin: 0 15px;
+	font: 400 19px "Raleway", sans-serif, "system-ui";
+}
+.top-navbar__toggle-contact-modal {
+	background: transparent;
+	border: none;
+}
+.top-navbar__early-access-btn {
+	border: 2px solid var(--theme-green);
+	color: var(--theme-green);
+	padding: 15px;
+	font: 400 19px "Raleway", sans-serif, "system-ui";
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+}
+.top-navbar__early-access-btn:hover {
+	background: var(--theme-green);
+	color: #fff;
+}
+.active-navbar-item {
+	border-bottom: 3px solid var(--theme-green);
+}
+
+@media all and (max-width: 991px) {
+	.money-transfer-link {
+		display: none;
+	}
+	.top-navbar__right-items {
+		display: none;
+	}
+	.open-side-navbar-btn {
+		display: inline;
+	}
+	.top-navbar {
+		justify-content: space-between;
+	}
+}

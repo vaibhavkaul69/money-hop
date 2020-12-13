@@ -1,0 +1,58 @@
+.side-navbar-container {
+	height: 100vh;
+	width: 100%;
+	top: 0px;
+	background: var(--theme-light-blue);
+	position: fixed;
+	z-index: 999;
+}
+.side-navbar-body {
+	background: #fff;
+	height: 100vh;
+	position: relative;
+	width: 400px;
+}
+.side-navbar-close-btn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 50px;
+	width: 50px;
+	font-size: 2.5rem;
+	border: none;
+	color: #fff;
+	background-color: var(--theme-blue);
+}
+.side-navbar__body-items {
+	height: 100%;
+	display: flex;
+	padding-top: 2rem;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.side-navbar-body-item,
+.side-navbar__early-access-btn {
+	margin: 20px;
+	border: none;
+	font: 600 30px "Raleway", sans-serif;
+	border-bottom: 1px solid lightgrey;
+	width: 85%;
+	padding-bottom: 10px;
+	text-align: left;
+	color: var(--theme-blue);
+	background: transparent;
+}
+.side-navbar__early-access-btn {
+	color: var(--theme-green);
+	border: none;
+}
+
+@media all and (max-width: 500px) {
+	.side-navbar-body {
+		width: 100%;
+	}
+	.side-navbar-body {
+		overflow-y: scroll;
+	}
+}

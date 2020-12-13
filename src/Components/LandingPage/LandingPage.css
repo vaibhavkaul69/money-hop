@@ -1,0 +1,121 @@
+.homepage-hero-section {
+	height: 100vh;
+	background: linear-gradient(to bottom, #0009, #0009, #1a1a1a),
+		url("../../images/homepage-bg.jpg");
+	background-size: cover;
+}
+.homepage-hero-section__content {
+	position: relative;
+	top: 30px;
+	left: 300px;
+}
+.hero-section__heading {
+	font: 600 4rem "Raleway", sans-serif;
+	color: #fff;
+	margin: 10px 0px;
+}
+.hero-section__heading > span {
+	color: var(--theme-green);
+}
+
+.hero-dash {
+	color: var(--theme-green);
+	font-size: 1.5rem;
+}
+.hero-section__tagline {
+	font: 600 3rem "Raleway", sans-serif;
+	color: #fff;
+}
+
+.hero-section__subheading {
+	font: 400 1.5rem "Raleway", sans-serif;
+	line-height: 40px;
+	width: 70%;
+}
+.hero-section__cta-btn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.cta__join-us-btn,
+.cta__play-store-badge {
+	height: 50px;
+}
+.cta__join-us-btn {
+	width: 180px;
+	margin-right: 20px;
+	border-radius: 5px;
+	color: var(--theme-green);
+	border: 2px solid var(--theme-green);
+	font: 400 22px "Raleway", sans-serif;
+	background: transparent;
+}
+
+@media all and (max-width: 1100px) {
+	.homepage-hero-section__content {
+		left: 100px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.homepage-hero-section__content {
+		left: 20px;
+	}
+	.hero-section__heading {
+		font: 600 3rem "Raleway", sans-serif;
+	}
+
+	.hero-section__tagline {
+		font: 600 2rem "Raleway", sans-serif;
+	}
+
+	.hero-section__subheading {
+		font: 400 1.5rem "Raleway", sans-serif;
+		line-height: 40px;
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.homepage-hero-section__content {
+		position: static;
+		padding: 20px;
+		margin-top: 60px;
+	}
+	.hero-dash {
+		font-size: 1.2rem;
+	}
+	.hero-section__heading {
+		font: 600 2.5rem "Raleway", sans-serif;
+	}
+
+	.hero-section__tagline {
+		font: 600 1.5rem "Raleway", sans-serif;
+	}
+
+	.hero-section__subheading {
+		font: 400 1rem "Raleway", sans-serif;
+		line-height: 25px;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 450px) {
+	.hero-section__heading {
+		font: 600 1.4rem "Raleway", sans-serif;
+	}
+
+	.hero-section__tagline {
+		font: 600 1.3rem "Raleway", sans-serif;
+	}
+
+	.hero-section__cta-btn {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.cta__join-us-btn {
+		width: 170px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+}

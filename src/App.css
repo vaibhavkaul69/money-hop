@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+:root {
+	--theme-blue: #185a9d;
+	--theme-green: #43cea2;
+	--theme-light-blue: rgba(24, 90, 157, 0.5);
+	--theme-light-green: rgba(67, 206, 162, 0.5);
+}
+button,
+button:focus,
+input,
+input:focus,
+textarea,
+textarea:focus {
+	outline: none;
+	cursor: pointer;
+}
+body {
+	overflow-x: hidden;
+}
+.container {
+	width: 60%;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	margin: 0px auto;
+}
+.no-margin {
+	margin: 0;
+}
+.text-center {
+	text-align: center;
+}
+.d-flex {
+	display: flex;
+}
+.justify-content-center {
+	justify-content: center;
+}
+.justify-content-end {
+	justify-content: flex-end;
+}
+.justify-content-start {
+	justify-content: flex-start;
+}
+.flex-column {
+	flex-direction: column;
+}
+.align-items-center {
+	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-white {
+	color: #fff;
+}
+.text-decoration-none {
+	text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/** Contact us modal css starts here**/
+.contact-modal-container {
+	width: 100%;
+	z-index: 999999;
+	display: flex;
+	transition: all 0.3s ease-in-out;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	overflow-y: scroll;
+	height: 100vh;
+	position: fixed;
+	background: var(--theme-light-blue);
+}
+.contact-info-phone-email {
+	width: 100%;
+	margin-top: 10px;
+	font: 400 16px "Poppins", sans-serif;
+}
+.contact-info-phone-email > span {
+	margin-bottom: 5px;
+}
+.contact-modal-body {
+	width: 350px;
+	position: relative;
+	min-height: 450px;
+	padding: 30px 20px;
+	background: #fff;
+	margin: 20px 0px;
+}
+.contact-modal-body > h3 {
+	font: 400 30px "Poppins", sans-serif;
+}
+.contact-modal-body > p {
+	font: 400 17px "Poppins", sans-serif;
+}
+.modal-close-btn {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	height: 50px;
+	width: 50px;
+	font-size: 2.5rem;
+	border: none;
+	color: #fff;
+	background-color: var(--theme-blue);
+}
+.contact-form__label-name {
+	font: 400 15px "Raleway", sans-serif;
+	margin-top: 20px;
+	position: relative;
+	top: 10px;
+	width: 70px;
+	left: 10px;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 0px;
+}
+.contact-form__input {
+	height: 40px;
+	font: 400 15px "Poppins", sans-serif;
+	border: 2px solid var(--theme-blue);
+	width: 88%;
+	padding-left: 10px;
+}
+.contact-form {
+	height: 80%;
+	width: 100%;
+	margin-top: 0px;
+}
+.contact-form__message-textarea {
+	height: 80px;
+	font: 400 15px "Poppins", sans-serif;
+	width: 90%;
+	padding-top: 20px;
+	border: 2px solid var(--theme-blue);
+	padding-left: 10px;
+}
+.contact-form__submit-btn {
+	margin-top: 15px;
+	font: 400 15px "Poppins", sans-serif;
+	border: none;
+	background: var(--theme-blue);
+	color: white;
+	box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+	width: 150px;
+	height: 40px;
+}
+/** Contact us modal css ends here**/
+
+@media all and (max-width: 991px) {
+	.container {
+		width: 80%;
+	}
+}
+@media all and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (max-width: 450px) {
+	.contact-modal-body {
+		width: 80%;
+	}
 }
