@@ -18,6 +18,7 @@ function App() {
 					<SideNavbar />
 					<ContactModal />
 					<Route exact path="/" component={LandingPage} />
+					<Route exact path="/money-hop" component={LandingPage} />
 					<Route path="/home" component={LandingPage} />
 					<Route path="/about" component={About} />
 					<Route path="/blog" component={Blog} />

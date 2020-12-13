@@ -25,7 +25,7 @@ function TopNavbar() {
 					</Link>
 					<NavLink
 						activeClassName="active-navbar-item"
-						to="/send-money"
+						to="https://moneyhop.co/send/"
 						className="text-white text-decoration-none money-transfer-link anchor-link"
 					>
 						Money Transfer

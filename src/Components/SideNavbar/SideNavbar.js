@@ -17,7 +17,7 @@ function SideNavbar() {
 					<NavLink
 						activeClassName="active-navbar-item"
 						className="mx-4 text-decoration-none side-navbar-body-item "
-						to="/send-money"
+						to="https://moneyhop.co/send/"
 					>
 						Money Transfer
 					</NavLink>
