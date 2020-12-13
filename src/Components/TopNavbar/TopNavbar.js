@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-import "./TopNavbar.css";
 import navImage from "../../images/logo-nav.png";
 import { NavLink, Link } from "react-router-dom";
 import { ToggleSideNavbarContactModal } from "../../Contexts/ToggleSideNavbarContactModalContext";

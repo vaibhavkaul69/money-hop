@@ -6,6 +6,8 @@ import About from "./Components/About/About";
 import SideNavbar from "./Components/SideNavbar/SideNavbar";
 import ToggleSideNavbarContactModalProvider from "./Contexts/ToggleSideNavbarContactModalContext";
 import ContactModal from "./Components/ContactUsModal/ContactModal";
+import Footer from "./Components/Footer/Footer";
+import Blog from "./Components/Blog/Blog";
 
 function App() {
 	return (
@@ -18,6 +20,8 @@ function App() {
 					<Route exact path="/" component={LandingPage} />
 					<Route path="/home" component={LandingPage} />
 					<Route path="/about" component={About} />
+					<Route path="/blog" component={Blog} />
+					<Footer />
 				</BrowserRouter>
 			</ToggleSideNavbarContactModalProvider>
 		</main>

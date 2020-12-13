@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./SideNavbar.css";
 import { NavLink } from "react-router-dom";
 import { ToggleSideNavbarContactModal } from "../../Contexts/ToggleSideNavbarContactModalContext";
 
