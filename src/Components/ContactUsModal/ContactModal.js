@@ -10,12 +10,7 @@ function ContactModal() {
 			<div className="contact-modal-body">
 				<h3 className="no-margin">Contact Us</h3>
 				<p className="no-margin">Need some help? We are here for you.</p>
-				<div className="d-flex contact-info-phone-email flex-column ">
-					<a href="tel:+91-6364001001"> +91-6364001001</a>
-					<a href="mailto:hello@moneyhop.co" target="_blank">
-						hello@moneyhop.co
-					</a>
-				</div>
+
 				<button className="modal-close-btn" onClick={toggleContactModal}>
 					×
 				</button>

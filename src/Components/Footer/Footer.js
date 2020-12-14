@@ -76,6 +76,25 @@ function Footer() {
 						<br /> 1st Sector, HSR Layout,
 						<br /> Bengaluru, Karnataka 560102
 					</p>
+					<div className="">
+						<h3 className="footer-column__heading no-margin">Phone:</h3>
+						<a
+							href="tel:+91-6364001001"
+							className="footer-column__text no-margin"
+						>
+							{" "}
+							+91-6364001001
+						</a>
+						<h3 className="footer-column__heading no-margin">Email:</h3>
+						<a
+							href="mailto:hello@moneyhop.co"
+							className="footer-column__text no-margin"
+							target="_blank"
+							rel="noreferrer"
+						>
+							hello@moneyhop.co
+						</a>
+					</div>
 				</div>
 				<div className="footer-body__column">
 					<h3 className="footer-column__heading">Follow us on</h3>

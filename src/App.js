@@ -18,6 +18,7 @@ function App() {
 	window.onpopstate = function () {
 		alert("You are trying to go Back and Forth");
 	};
+
 	return (
 		<main className="main-body-content">
 			<ToggleSideNavbarContactModalProvider>
