@@ -45,7 +45,7 @@ function Footer() {
 					<ul className="footer-products__list">
 						<li>
 							<a
-								href="https://moneyhop.co/send/Money"
+								href="https://moneyhop.co/send"
 								className="text-decoration-none text-white"
 								target="_blank"
 								rel="noreferrer"
