@@ -520,7 +520,7 @@ img[alt="Linkedin Icon"] {
 	transition: all 0.3s ease-in-out;
 	justify-content: center;
 	align-items: center;
-	padding-top: 30px;
+	padding-top: 0px;
 	overflow-y: scroll;
 	height: 100vh;
 	position: fixed;
